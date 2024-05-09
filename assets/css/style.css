@@ -1,0 +1,124 @@
+:root {
+    --Primary: #222;
+    --Secondary: #4E4E4E;
+    --Tertiary: #F6F5F4;
+    --Accent: #FFD55A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: "Inter", sans-serif;
+}
+
+.announcement-bar p {
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 1.6rem;
+    background-color: var(--Primary);
+    color: var(--Tertiary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-weight: 700;
+    margin: 0 5px;
+}
+
+ .nav-bar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+    width: 100%;
+    height: 8.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem;
+ }
+
+ .logo {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--Primary);
+    cursor: pointer;
+ }
+
+ .menu-bar {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+ }
+
+ .menu-bar a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--Primary);
+ }
+.btn-yellow {
+    padding: 1rem 1.6rem;
+    font-size: 1.6rem;
+    color: var(--Primary);
+    font-weight: 700;
+    background-color: var(--Accent);
+    border: none;
+    border-radius: 0.8rem;
+ }
+
+ .btn-white {
+    padding: 1rem 1.6rem;
+    font-size: 1.6rem;
+    color: var(--Primary);
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    border-radius: 0.8rem;
+ }
+
+ .hero-text {
+    width: 100%;
+    max-width: 76.8rem;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+ }
+
+ .hero-text h1 {
+    font-size: 5.6rem;
+    font-weight: 700;
+    margin-top: 9.6rem;
+    margin-bottom: 2.4rem;
+ }
+
+ .hero-text p {
+    font-size: 2.4rem;
+    color: var(--Secondary);
+    margin-bottom: 2.4rem;
+ }
+
+ .hero-text .hero-line {
+    position: absolute;
+    top: 96px;
+    left: 142px;
+    width: 38%;
+ }
+
+
+
+
+ .hero-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 9.2rem;
+    margin-bottom: 6.2rem;
+ }
+
+ .arrow {
+    margin-left: -22px;
+
+ }
